@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B964E013163BCBFF00DB9FC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E012163BCBFF00DB9FC0 /* UIKit.framework */; };
+		B964E015163BCBFF00DB9FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E014163BCBFF00DB9FC0 /* Foundation.framework */; };
+		B964E017163BCBFF00DB9FC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E016163BCBFF00DB9FC0 /* CoreGraphics.framework */; };
+		B964E01D163BCBFF00DB9FC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B964E01B163BCBFF00DB9FC0 /* InfoPlist.strings */; };
+		B964E01F163BCBFF00DB9FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E01E163BCBFF00DB9FC0 /* main.m */; };
+		B964E023163BCBFF00DB9FC0 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E022163BCBFF00DB9FC0 /* TAAppDelegate.m */; };
+		B964E025163BCBFF00DB9FC0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B964E024163BCBFF00DB9FC0 /* Default.png */; };
+		B964E027163BCBFF00DB9FC0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B964E026163BCBFF00DB9FC0 /* Default@2x.png */; };
+		B964E029163BCBFF00DB9FC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B964E028163BCBFF00DB9FC0 /* Default-568h@2x.png */; };
+		B964E02C163BCBFF00DB9FC0 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E02B163BCBFF00DB9FC0 /* TAViewController.m */; };
+		B964E02F163BCBFF00DB9FC0 /* TAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B964E02D163BCBFF00DB9FC0 /* TAViewController.xib */; };
+		B964E037163BCC0000DB9FC0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E036163BCC0000DB9FC0 /* SenTestingKit.framework */; };
+		B964E038163BCC0000DB9FC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E012163BCBFF00DB9FC0 /* UIKit.framework */; };
+		B964E039163BCC0000DB9FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E014163BCBFF00DB9FC0 /* Foundation.framework */; };
+		B964E041163BCC0000DB9FC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B964E03F163BCC0000DB9FC0 /* InfoPlist.strings */; };
+		B964E044163BCC0000DB9FC0 /* katayunoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E043163BCC0000DB9FC0 /* katayunoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B964E03A163BCC0000DB9FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B964E005163BCBFF00DB9FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B964E00D163BCBFF00DB9FC0;
+			remoteInfo = katayuno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B964E00E163BCBFF00DB9FC0 /* katayuno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = katayuno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B964E012163BCBFF00DB9FC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B964E014163BCBFF00DB9FC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B964E016163BCBFF00DB9FC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B964E01A163BCBFF00DB9FC0 /* katayuno-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "katayuno-Info.plist"; sourceTree = "<group>"; };
+		B964E01C163BCBFF00DB9FC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B964E01E163BCBFF00DB9FC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B964E020163BCBFF00DB9FC0 /* katayuno-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "katayuno-Prefix.pch"; sourceTree = "<group>"; };
+		B964E021163BCBFF00DB9FC0 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		B964E022163BCBFF00DB9FC0 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		B964E024163BCBFF00DB9FC0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B964E026163BCBFF00DB9FC0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B964E028163BCBFF00DB9FC0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B964E02A163BCBFF00DB9FC0 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
+		B964E02B163BCBFF00DB9FC0 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
+		B964E02E163BCBFF00DB9FC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TAViewController.xib; sourceTree = "<group>"; };
+		B964E035163BCC0000DB9FC0 /* katayunoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = katayunoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B964E036163BCC0000DB9FC0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B964E03E163BCC0000DB9FC0 /* katayunoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "katayunoTests-Info.plist"; sourceTree = "<group>"; };
+		B964E040163BCC0000DB9FC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B964E042163BCC0000DB9FC0 /* katayunoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = katayunoTests.h; sourceTree = "<group>"; };
+		B964E043163BCC0000DB9FC0 /* katayunoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = katayunoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B964E00B163BCBFF00DB9FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964E013163BCBFF00DB9FC0 /* UIKit.framework in Frameworks */,
+				B964E015163BCBFF00DB9FC0 /* Foundation.framework in Frameworks */,
+				B964E017163BCBFF00DB9FC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B964E031163BCC0000DB9FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964E037163BCC0000DB9FC0 /* SenTestingKit.framework in Frameworks */,
+				B964E038163BCC0000DB9FC0 /* UIKit.framework in Frameworks */,
+				B964E039163BCC0000DB9FC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B964E003163BCBFF00DB9FC0 = {
+			isa = PBXGroup;
+			children = (
+				B964E018163BCBFF00DB9FC0 /* katayuno */,
+				B964E03C163BCC0000DB9FC0 /* katayunoTests */,
+				B964E011163BCBFF00DB9FC0 /* Frameworks */,
+				B964E00F163BCBFF00DB9FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B964E00F163BCBFF00DB9FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B964E00E163BCBFF00DB9FC0 /* katayuno.app */,
+				B964E035163BCC0000DB9FC0 /* katayunoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B964E011163BCBFF00DB9FC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B964E012163BCBFF00DB9FC0 /* UIKit.framework */,
+				B964E014163BCBFF00DB9FC0 /* Foundation.framework */,
+				B964E016163BCBFF00DB9FC0 /* CoreGraphics.framework */,
+				B964E036163BCC0000DB9FC0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B964E018163BCBFF00DB9FC0 /* katayuno */ = {
+			isa = PBXGroup;
+			children = (
+				B964E021163BCBFF00DB9FC0 /* TAAppDelegate.h */,
+				B964E022163BCBFF00DB9FC0 /* TAAppDelegate.m */,
+				B964E02A163BCBFF00DB9FC0 /* TAViewController.h */,
+				B964E02B163BCBFF00DB9FC0 /* TAViewController.m */,
+				B964E02D163BCBFF00DB9FC0 /* TAViewController.xib */,
+				B964E019163BCBFF00DB9FC0 /* Supporting Files */,
+			);
+			path = katayuno;
+			sourceTree = "<group>";
+		};
+		B964E019163BCBFF00DB9FC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B964E01A163BCBFF00DB9FC0 /* katayuno-Info.plist */,
+				B964E01B163BCBFF00DB9FC0 /* InfoPlist.strings */,
+				B964E01E163BCBFF00DB9FC0 /* main.m */,
+				B964E020163BCBFF00DB9FC0 /* katayuno-Prefix.pch */,
+				B964E024163BCBFF00DB9FC0 /* Default.png */,
+				B964E026163BCBFF00DB9FC0 /* Default@2x.png */,
+				B964E028163BCBFF00DB9FC0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B964E03C163BCC0000DB9FC0 /* katayunoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B964E042163BCC0000DB9FC0 /* katayunoTests.h */,
+				B964E043163BCC0000DB9FC0 /* katayunoTests.m */,
+				B964E03D163BCC0000DB9FC0 /* Supporting Files */,
+			);
+			path = katayunoTests;
+			sourceTree = "<group>";
+		};
+		B964E03D163BCC0000DB9FC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B964E03E163BCC0000DB9FC0 /* katayunoTests-Info.plist */,
+				B964E03F163BCC0000DB9FC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B964E00D163BCBFF00DB9FC0 /* katayuno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B964E047163BCC0000DB9FC0 /* Build configuration list for PBXNativeTarget "katayuno" */;
+			buildPhases = (
+				B964E00A163BCBFF00DB9FC0 /* Sources */,
+				B964E00B163BCBFF00DB9FC0 /* Frameworks */,
+				B964E00C163BCBFF00DB9FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = katayuno;
+			productName = katayuno;
+			productReference = B964E00E163BCBFF00DB9FC0 /* katayuno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B964E034163BCC0000DB9FC0 /* katayunoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B964E04A163BCC0000DB9FC0 /* Build configuration list for PBXNativeTarget "katayunoTests" */;
+			buildPhases = (
+				B964E030163BCC0000DB9FC0 /* Sources */,
+				B964E031163BCC0000DB9FC0 /* Frameworks */,
+				B964E032163BCC0000DB9FC0 /* Resources */,
+				B964E033163BCC0000DB9FC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B964E03B163BCC0000DB9FC0 /* PBXTargetDependency */,
+			);
+			name = katayunoTests;
+			productName = katayunoTests;
+			productReference = B964E035163BCC0000DB9FC0 /* katayunoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B964E005163BCBFF00DB9FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jorge Maroto García";
+			};
+			buildConfigurationList = B964E008163BCBFF00DB9FC0 /* Build configuration list for PBXProject "katayuno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B964E003163BCBFF00DB9FC0;
+			productRefGroup = B964E00F163BCBFF00DB9FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B964E00D163BCBFF00DB9FC0 /* katayuno */,
+				B964E034163BCC0000DB9FC0 /* katayunoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B964E00C163BCBFF00DB9FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964E01D163BCBFF00DB9FC0 /* InfoPlist.strings in Resources */,
+				B964E025163BCBFF00DB9FC0 /* Default.png in Resources */,
+				B964E027163BCBFF00DB9FC0 /* Default@2x.png in Resources */,
+				B964E029163BCBFF00DB9FC0 /* Default-568h@2x.png in Resources */,
+				B964E02F163BCBFF00DB9FC0 /* TAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B964E032163BCC0000DB9FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964E041163BCC0000DB9FC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B964E033163BCC0000DB9FC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B964E00A163BCBFF00DB9FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964E01F163BCBFF00DB9FC0 /* main.m in Sources */,
+				B964E023163BCBFF00DB9FC0 /* TAAppDelegate.m in Sources */,
+				B964E02C163BCBFF00DB9FC0 /* TAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B964E030163BCC0000DB9FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964E044163BCC0000DB9FC0 /* katayunoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B964E03B163BCC0000DB9FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B964E00D163BCBFF00DB9FC0 /* katayuno */;
+			targetProxy = B964E03A163BCC0000DB9FC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B964E01B163BCBFF00DB9FC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B964E01C163BCBFF00DB9FC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B964E02D163BCBFF00DB9FC0 /* TAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B964E02E163BCBFF00DB9FC0 /* en */,
+			);
+			name = TAViewController.xib;
+			sourceTree = "<group>";
+		};
+		B964E03F163BCC0000DB9FC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B964E040163BCC0000DB9FC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B964E045163BCC0000DB9FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B964E046163BCC0000DB9FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B964E048163BCC0000DB9FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "katayuno/katayuno-Prefix.pch";
+				INFOPLIST_FILE = "katayuno/katayuno-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B964E049163BCC0000DB9FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "katayuno/katayuno-Prefix.pch";
+				INFOPLIST_FILE = "katayuno/katayuno-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B964E04B163BCC0000DB9FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/katayuno.app/katayuno";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "katayuno/katayuno-Prefix.pch";
+				INFOPLIST_FILE = "katayunoTests/katayunoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B964E04C163BCC0000DB9FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/katayuno.app/katayuno";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "katayuno/katayuno-Prefix.pch";
+				INFOPLIST_FILE = "katayunoTests/katayunoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B964E008163BCBFF00DB9FC0 /* Build configuration list for PBXProject "katayuno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B964E045163BCC0000DB9FC0 /* Debug */,
+				B964E046163BCC0000DB9FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B964E047163BCC0000DB9FC0 /* Build configuration list for PBXNativeTarget "katayuno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B964E048163BCC0000DB9FC0 /* Debug */,
+				B964E049163BCC0000DB9FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B964E04A163BCC0000DB9FC0 /* Build configuration list for PBXNativeTarget "katayunoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B964E04B163BCC0000DB9FC0 /* Debug */,
+				B964E04C163BCC0000DB9FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B964E005163BCBFF00DB9FC0 /* Project object */;
+}
