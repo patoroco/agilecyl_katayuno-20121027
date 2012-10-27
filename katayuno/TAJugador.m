@@ -9,21 +9,22 @@
 #import "TAJugador.h"
 
 @implementation TAJugador
+
 - (id)init{
     self = [super init];
     if (self) {
-        self.puntuacion = @0;
+        _punteroPuntuacion = 0;
+        puntuaciones = @[@0, @15, @30, @40];
     }
     return self;
 }
 
 
 -(void)anotarPunto{
-    if ([self.puntuacion isEqualToNumber:@0])
-        self.puntuacion = @15;
-    else if ([self.puntuacion isEqualToNumber:@15])
-        self.puntuacion = @30;
-    else if ([self.puntuacion isEqualToNumber:@30])
-        self.puntuacion = @40;
+        _punteroPuntuacion++;
+}
+
+-(NSNumber *)puntuacion{
+    return puntuaciones[_punteroPuntuacion];
 }
 @end

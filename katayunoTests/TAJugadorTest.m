@@ -21,10 +21,13 @@
     TAJugador *jugador = [TAJugador new];
     [jugador anotarPunto];
     STAssertEqualObjects(jugador.puntuacion, @15, @"Una vez que se marca un punto son 15");
+    
     [jugador anotarPunto];
     STAssertEqualObjects(jugador.puntuacion, @30, @"Una vez que se marca un punto son 30");
+    
     [jugador anotarPunto];
     STAssertEqualObjects(jugador.puntuacion, @40, @"Una vez que se marca un punto son 40");
+    
     [jugador release];
 }
 

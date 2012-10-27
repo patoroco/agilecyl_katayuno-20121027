@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TAJugador : NSObject
-    @property (nonatomic, retain) NSNumber *puntuacion;
+@interface TAJugador : NSObject{
+    NSArray *puntuaciones;
+}
 
+@property (nonatomic, readonly) int punteroPuntuacion;
 -(void)anotarPunto;
+-(NSNumber *)puntuacion;
 @end

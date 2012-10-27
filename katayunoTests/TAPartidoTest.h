@@ -8,6 +8,8 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface TAPartidoTest : SenTestCase
+@interface TAPartidoTest : SenTestCase{
+    
+}
 
 @end
