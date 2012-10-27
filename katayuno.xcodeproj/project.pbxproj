@@ -16,13 +16,16 @@
 		B964E025163BCBFF00DB9FC0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B964E024163BCBFF00DB9FC0 /* Default.png */; };
 		B964E027163BCBFF00DB9FC0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B964E026163BCBFF00DB9FC0 /* Default@2x.png */; };
 		B964E029163BCBFF00DB9FC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B964E028163BCBFF00DB9FC0 /* Default-568h@2x.png */; };
-		B964E02C163BCBFF00DB9FC0 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E02B163BCBFF00DB9FC0 /* TAViewController.m */; };
-		B964E02F163BCBFF00DB9FC0 /* TAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B964E02D163BCBFF00DB9FC0 /* TAViewController.xib */; };
 		B964E037163BCC0000DB9FC0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E036163BCC0000DB9FC0 /* SenTestingKit.framework */; };
 		B964E038163BCC0000DB9FC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E012163BCBFF00DB9FC0 /* UIKit.framework */; };
 		B964E039163BCC0000DB9FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B964E014163BCBFF00DB9FC0 /* Foundation.framework */; };
 		B964E041163BCC0000DB9FC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B964E03F163BCC0000DB9FC0 /* InfoPlist.strings */; };
-		B964E044163BCC0000DB9FC0 /* katayunoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E043163BCC0000DB9FC0 /* katayunoTests.m */; };
+		B964E05A163BD00E00DB9FC0 /* TAJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E059163BD00E00DB9FC0 /* TAJugador.m */; };
+		B964E05B163BD00E00DB9FC0 /* TAJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E059163BD00E00DB9FC0 /* TAJugador.m */; };
+		B964E05E163BD02D00DB9FC0 /* TAJugadorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E05D163BD02D00DB9FC0 /* TAJugadorTest.m */; };
+		B964E061163BD53B00DB9FC0 /* TAPartido.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E060163BD53B00DB9FC0 /* TAPartido.m */; };
+		B964E062163BD53B00DB9FC0 /* TAPartido.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E060163BD53B00DB9FC0 /* TAPartido.m */; };
+		B964E065163BD54C00DB9FC0 /* TAPartidoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B964E064163BD54C00DB9FC0 /* TAPartidoTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +52,18 @@
 		B964E024163BCBFF00DB9FC0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B964E026163BCBFF00DB9FC0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B964E028163BCBFF00DB9FC0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B964E02A163BCBFF00DB9FC0 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
-		B964E02B163BCBFF00DB9FC0 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
-		B964E02E163BCBFF00DB9FC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TAViewController.xib; sourceTree = "<group>"; };
 		B964E035163BCC0000DB9FC0 /* katayunoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = katayunoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B964E036163BCC0000DB9FC0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B964E03E163BCC0000DB9FC0 /* katayunoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "katayunoTests-Info.plist"; sourceTree = "<group>"; };
 		B964E040163BCC0000DB9FC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B964E042163BCC0000DB9FC0 /* katayunoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = katayunoTests.h; sourceTree = "<group>"; };
-		B964E043163BCC0000DB9FC0 /* katayunoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = katayunoTests.m; sourceTree = "<group>"; };
+		B964E058163BD00E00DB9FC0 /* TAJugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAJugador.h; sourceTree = "<group>"; };
+		B964E059163BD00E00DB9FC0 /* TAJugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAJugador.m; sourceTree = "<group>"; };
+		B964E05C163BD02D00DB9FC0 /* TAJugadorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAJugadorTest.h; sourceTree = "<group>"; };
+		B964E05D163BD02D00DB9FC0 /* TAJugadorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAJugadorTest.m; sourceTree = "<group>"; };
+		B964E05F163BD53B00DB9FC0 /* TAPartido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPartido.h; sourceTree = "<group>"; };
+		B964E060163BD53B00DB9FC0 /* TAPartido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPartido.m; sourceTree = "<group>"; };
+		B964E063163BD54C00DB9FC0 /* TAPartidoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPartidoTest.h; sourceTree = "<group>"; };
+		B964E064163BD54C00DB9FC0 /* TAPartidoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPartidoTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +125,11 @@
 			children = (
 				B964E021163BCBFF00DB9FC0 /* TAAppDelegate.h */,
 				B964E022163BCBFF00DB9FC0 /* TAAppDelegate.m */,
-				B964E02A163BCBFF00DB9FC0 /* TAViewController.h */,
-				B964E02B163BCBFF00DB9FC0 /* TAViewController.m */,
-				B964E02D163BCBFF00DB9FC0 /* TAViewController.xib */,
 				B964E019163BCBFF00DB9FC0 /* Supporting Files */,
+				B964E058163BD00E00DB9FC0 /* TAJugador.h */,
+				B964E059163BD00E00DB9FC0 /* TAJugador.m */,
+				B964E05F163BD53B00DB9FC0 /* TAPartido.h */,
+				B964E060163BD53B00DB9FC0 /* TAPartido.m */,
 			);
 			path = katayuno;
 			sourceTree = "<group>";
@@ -144,9 +151,11 @@
 		B964E03C163BCC0000DB9FC0 /* katayunoTests */ = {
 			isa = PBXGroup;
 			children = (
-				B964E042163BCC0000DB9FC0 /* katayunoTests.h */,
-				B964E043163BCC0000DB9FC0 /* katayunoTests.m */,
 				B964E03D163BCC0000DB9FC0 /* Supporting Files */,
+				B964E05C163BD02D00DB9FC0 /* TAJugadorTest.h */,
+				B964E05D163BD02D00DB9FC0 /* TAJugadorTest.m */,
+				B964E063163BD54C00DB9FC0 /* TAPartidoTest.h */,
+				B964E064163BD54C00DB9FC0 /* TAPartidoTest.m */,
 			);
 			path = katayunoTests;
 			sourceTree = "<group>";
@@ -236,7 +245,6 @@
 				B964E025163BCBFF00DB9FC0 /* Default.png in Resources */,
 				B964E027163BCBFF00DB9FC0 /* Default@2x.png in Resources */,
 				B964E029163BCBFF00DB9FC0 /* Default-568h@2x.png in Resources */,
-				B964E02F163BCBFF00DB9FC0 /* TAViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +281,8 @@
 			files = (
 				B964E01F163BCBFF00DB9FC0 /* main.m in Sources */,
 				B964E023163BCBFF00DB9FC0 /* TAAppDelegate.m in Sources */,
-				B964E02C163BCBFF00DB9FC0 /* TAViewController.m in Sources */,
+				B964E05A163BD00E00DB9FC0 /* TAJugador.m in Sources */,
+				B964E061163BD53B00DB9FC0 /* TAPartido.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B964E044163BCC0000DB9FC0 /* katayunoTests.m in Sources */,
+				B964E05B163BD00E00DB9FC0 /* TAJugador.m in Sources */,
+				B964E05E163BD02D00DB9FC0 /* TAJugadorTest.m in Sources */,
+				B964E062163BD53B00DB9FC0 /* TAPartido.m in Sources */,
+				B964E065163BD54C00DB9FC0 /* TAPartidoTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +314,6 @@
 				B964E01C163BCBFF00DB9FC0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B964E02D163BCBFF00DB9FC0 /* TAViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B964E02E163BCBFF00DB9FC0 /* en */,
-			);
-			name = TAViewController.xib;
 			sourceTree = "<group>";
 		};
 		B964E03F163BCC0000DB9FC0 /* InfoPlist.strings */ = {
