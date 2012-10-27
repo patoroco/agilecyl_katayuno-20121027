@@ -26,6 +26,7 @@
         self.ganador = jugador;
 }
 
+#warning Este método no nos dió tiempo a terminarlo
 -(NSNumber *)puntuacion:(TAJugador *)jugador{
     // Normal
     if (jugador.punteroPuntuacion < 3)
